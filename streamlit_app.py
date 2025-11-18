@@ -68,12 +68,12 @@ st.markdown("---")
 # 각 라벨당 최대 3개씩 표시됩니다.
 # ======================
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
-    # 예)
-    # "짬뽕": {
-    #   "texts": ["짬뽕의 특징과 유래", "국물 맛 포인트", "지역별 스타일 차이"],
-    #   "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
-    #   "videos": ["https://youtu.be/XXXXXXXXXXX"]
-    # },
+    
+     labels[0]: {
+       "texts": ["짬뽕의 특징과 유래", "국물 맛 포인트", "지역별 스타일 차이"],
+       "images": ["https://.../jjampong1.jpg", "https://.../jjampong2.jpg"],
+       "videos": ["https://youtu.be/XXXXXXXXXXX"]
+     },
 }
 
 # ======================
@@ -104,7 +104,7 @@ def get_content_for_label(label: str):
     """라벨명으로 콘텐츠 반환 (texts, images, videos). 없으면 빈 리스트."""
     cfg = CONTENT_BY_LABEL.get(label, {})
     return (
-        pick_top3(cfg.get("texts", [])),
+        pick_top3(cfg.get("texts", ["애플폰","샤오미폰","삼성폰"])),
         pick_top3(cfg.get("images", [])),
         pick_top3(cfg.get("videos", [])),
     )
