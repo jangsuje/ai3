@@ -70,9 +70,21 @@ st.markdown("---")
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
     
      labels[0]: {
-       "texts": ["짬뽕의 특징과 유래", "국물 맛 포인트", "지역별 스타일 차이"],
+       "texts": ["1988년 국내 최초 휴대폰 'SH-100' 출시로 시작하여, '애니콜' 브랜드를 거쳐 현재의 '갤럭시' 스마트폰 시대로 진화했습니다", "다양한 라인업, 폴더블 기술, 강력한 카메라 성능, 그리고 최근의 갤럭시 AI 기능 등을 주요 특징으로 합니다. 안드로이드 운영 체제를 기반으로 하여 전 세계적으로 높은 인기를 얻고 있습니다."],
        "images": ["https://i.namu.wiki/i/D6khCy6Uv8EiXxe4ounk94_zyUIj3ErSD3dIZ-rgYIhr-mXggrnJRHPLlOtg1_JHUXYTwgAFkr17HPtQgDT8qw.webp", "https://.../jjampong2.jpg"],
-       "videos": ["https://youtu.be/XXXXXXXXXXX"]
+       "videos": ["https://www.youtube.com/watch?v=nBaX50HVOUs"]
+     },
+
+     labels[1]: {
+       "texts": ["샤오미는 2010년 설립 이후 온라인 중심의 판매 전략과 가성비를 무기로 빠르게 성장했으며, 현재는 글로벌 스마트폰 시장의 주요 기업으로 자리매김했습니다.", "샤오미폰의 주요 특징은 **뛰어난 가격 대비 성능(가성비), 고사양 하드웨어, 대용량 배터리와 고속 충전, 그리고 독자적인 운영체제인 하이퍼OS (HyperOS, 이전 MIUI)**로 요약할 수 있습니다"],
+       "images": ["https://cdn.digitaltoday.co.kr/news/photo/202509/594517_552498_1747.jpg"],
+       "videos": ["https://www.youtube.com/shorts/jx3KCZyS0zg"]
+     },
+
+     labels[2]: {
+       "texts": ["2007년 1월 스티브 잡스가 발표한 1세대 아이폰을 시작으로 휴대전화, 음악 플레이어, 인터넷 통신기기가 결합된 혁신적인 스마트폰입니다", "애플폰의 주요 특징은 ① 높은 하드웨어와 소프트웨어 통합성, ② 직관적인 사용자 경험(UX) 제공, ③ 높은 수준의 성능 및 안정성, ④ 강력한 생태계 구축"],
+       "images": ["https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN5KcWHg8VkUY_LWmIo7ndzuQ6yXFhdBtLlA&s"],
+       "videos": ["https://www.youtube.com/watch?v=LuJpqRDOMZs&list=RDLuJpqRDOMZs&start_radio=1"]
      },
 }
 
